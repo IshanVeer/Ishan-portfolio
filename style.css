@@ -4,6 +4,10 @@
 --light-gray: #F3F4F6;
 --primary-color: 
 #FBBF24;
+--gray:#1F2937;
+
+
+
 
 
 
@@ -34,6 +38,9 @@ body{
 }
 .Link{
     text-decoration: none;
+    padding:0.5rem 1rem;
+    font-size: 1rem;
+    
 
 }
 .link-primary{
@@ -50,6 +57,67 @@ body{
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+hr{
+    margin:2rem 0rem
+}
+.list-non-bullet{
+    list-style:none ;
+}
+
+.list-item-inline{
+    display: inline;  
+
+}
+.navigation{
+    padding:2rem 1rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius:2rem
+}
+.navigation .Link{
+    color: var(--light-gray);
+    margin:auto;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.hero{
+    padding:2rem 0rem;
+}
+.hero .hero-image{
+    display: block;
+    max-width:600px;
+    margin:auto;
+}
+.hero .hero-text{
+    padding:1rem 1rem;
+    margin:auto;
+    text-align:center;
+}
+.normal-section{
+    padding:2rem 1rem;
+}
+.section-text{
+    
+    text-align:center;
+}
+
+.gray-section{
+    padding:2rem 1rem;
+    background-color: var(--gray);
+
+}
+
+    
+   
+
+
+
+
+
+
+
+    
+
 
 
     
