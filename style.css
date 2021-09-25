@@ -65,7 +65,8 @@ hr{
 }
 
 .list-item-inline{
-    display: inline;  
+    display: inline; 
+    text-align:center 
 
 }
 .navigation{
@@ -85,7 +86,7 @@ hr{
 }
 .hero .hero-image{
     display: block;
-    max-width:600px;
+    max-width:350px;
     margin:auto;
 }
 .hero .hero-text{
@@ -106,6 +107,16 @@ hr{
     background-color: var(--gray);
 
 }
+footer{
+    background-color:var(--primary-color);
+    padding:1rem 1rem;
+    border-top-right-radius:2rem ;
+}
+footer .Link{
+    color: var(--light-gray);
+    text-align:center;
+}
+
 
     
    
