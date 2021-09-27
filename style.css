@@ -41,6 +41,7 @@ body{
     padding:0.5rem 1rem;
     font-size: 1rem;
     
+    
 
 }
 .link-primary{
@@ -49,6 +50,7 @@ body{
     padding: 0.5rem 0.5rem;
     background-color: var(--primary-color);
     border-radius: 00.5rem;
+    
 
 }
 .link-secondary{
@@ -111,6 +113,7 @@ footer{
     background-color:var(--primary-color);
     padding:1rem 1rem;
     border-top-right-radius:2rem ;
+    text-align:center;
 }
 footer .Link{
     color: var(--light-gray);
